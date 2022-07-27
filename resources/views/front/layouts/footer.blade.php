@@ -1,4 +1,3 @@
-@section('footer')
 <!-- Newsletter -->
 <div class="newsletter">
     <div class="container">
@@ -50,7 +49,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="footer_nav_container">
-                    <div class="cr">©2018 All Rights Reserverd. Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#">Colorlib</a> &amp; distributed by <a href="https://themewagon.com">ThemeWagon</a></div>
+                    <div class="cr">©2022 All Rights Reserverd. Made by Vadym Gmyria</div>
                 </div>
             </div>
         </div>
@@ -59,14 +58,16 @@
 
 </div>
 
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="styles/bootstrap4/popper.js"></script>
-<script src="styles/bootstrap4/bootstrap.min.js"></script>
-<script src="plugins/Isotope/isotope.pkgd.min.js"></script>
-<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="plugins/easing/easing.js"></script>
-<script src="js/custom.js"></script>
+<script src="front/js/jquery-3.2.1.min.js"></script>
+<script src="front/styles/bootstrap4/popper.js"></script>
+<script src="front/styles/bootstrap4/bootstrap.min.js"></script>
+<script src="front/plugins/Isotope/isotope.pkgd.min.js"></script>
+<script src="front/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="front/plugins/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+<script src="front/plugins/easing/easing.js"></script>
+<script src="front/js/custom.js"></script>
+<script src="front/js/categories_custom.js"></script>
+<script src="front/js/single_custom.js"></script>
 </body>
 
 </html>
-@endsection
