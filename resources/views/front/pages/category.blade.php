@@ -1,5 +1,5 @@
 @extends('front.index')
-@section('title')Category page@endsection
+@section('title'){{ $category->name }} @endsection
 @section('content')
     <div class="container product_section_container">
         <div class="row">
@@ -13,6 +13,7 @@
                         <li class="active"><a href="index.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Men's</a></li>
                     </ul>
                 </div>
+                <h1>{{ $category->name  }}</h1>
 
                 <!-- Sidebar -->
 

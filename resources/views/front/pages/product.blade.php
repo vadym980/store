@@ -1,5 +1,5 @@
 @extends('front.index')
-@section('title')Category page@endsection
+@section('title')Product page @endsection
 @section('content')
     <div class="container single_product_container">
         <div class="row">

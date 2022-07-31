@@ -1,5 +1,5 @@
 @extends('front.index')
-@section('title')Main page of store@endsection
+@section('title')Main page of store @endsection
 @section('content')
 <!-- Slider -->
 <div class="main_slider" style="background-image:url(front/images/slider_1.jpg)">

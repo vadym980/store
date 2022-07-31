@@ -6,20 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Colo Shop Template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="front/styles/bootstrap4/bootstrap.min.css">
-    <link rel="stylesheet" href="front/plugins/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="front/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
-    <link rel="stylesheet" href="front/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
-    <link rel="stylesheet" href="front/plugins/OwlCarousel2-2.2.1/animate.css">
-    <link rel="stylesheet" href="front/plugins/jquery-ui-1.12.1.custom/jquery-ui.css">
-    <link rel="stylesheet" href="front/plugins/themify-icons/themify-icons.css">
-    <link rel="stylesheet" href="front/styles/main_styles.css">
-    <link rel="stylesheet" href="front/styles/responsive.css">
-    <link rel="stylesheet" href="front/styles/categories_styles.css">
-    <link rel="stylesheet" href="front/styles/categories_responsive.css">
-    <link rel="stylesheet" href="front/styles/categories_responsive.css">
-    <link rel="stylesheet" href="front/styles/single_styles.css">
-    <link rel="stylesheet" href="front/styles/single_responsive.css">
+    <link rel="stylesheet" href="/front/styles/bootstrap4/bootstrap.min.css">
+    <link rel="stylesheet" href="/front/plugins/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/front/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+    <link rel="stylesheet" href="/front/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+    <link rel="stylesheet" href="/front/plugins/OwlCarousel2-2.2.1/animate.css">
+    <link rel="stylesheet" href="/front/plugins/jquery-ui-1.12.1.custom/jquery-ui.css">
+    <link rel="stylesheet" href="/front/plugins/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="/front/styles/main_styles.css">
+    <link rel="stylesheet" href="/front/styles/responsive.css">
+    <link rel="stylesheet" href="/front/styles/categories_styles.css">
+    <link rel="stylesheet" href="/front/styles/categories_responsive.css">
+    <link rel="stylesheet" href="/front/styles/categories_responsive.css">
+    <link rel="stylesheet" href="/front/styles/single_styles.css">
+    <link rel="stylesheet" href="/front/styles/single_responsive.css">
 </head>
 
 <body>
@@ -96,11 +96,10 @@
                         </div>
                         <nav class="navbar">
                             <ul class="navbar_menu">
-                                <li><a href="index.html">home</a></li>
-                                <li><a href="#">shop</a></li>
-                                <li><a href="#">promotion</a></li>
-                                <li><a href="#">pages</a></li>
-                                <li><a href="#">blog</a></li>
+                                <li><a href="/">home</a></li>
+                                <li><a href="#">bags</a></li>
+                                <li><a href="#">accessories</a></li>
+                                <li><a href="#">clothes</a></li>
                                 <li><a href="contact.html">contact</a></li>
                             </ul>
                             <ul class="navbar_user">

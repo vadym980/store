@@ -15,5 +15,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [MainController::class,'index'])->name('main');
-Route::get('/category', [MainController::class,'category'])->name('category');
-Route::get('/product', [MainController::class,'product'])->name('product');
+Route::get('/category/{slug}', [MainController::class,'category'])->name('category');
+Route::get('/category', [MainController::class,'categories'])->name('categories');
+Route::get('/product/{slug}', [MainController::class,'product'])->name('product');
