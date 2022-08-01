@@ -1,291 +1,752 @@
 @extends('front.index')
 @section('title')Product page @endsection
 @section('content')
-    <div class="container single_product_container">
-        <div class="row">
-            <div class="col">
-
-                <!-- Breadcrumbs -->
-
-                <div class="breadcrumbs d-flex flex-row align-items-center">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="categories.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Men's</a></li>
-                        <li class="active"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Single Product</a></li>
-                    </ul>
+    <section class="product-top">
+        <div class="container row row-space">
+            <ul class="bread row bread-mobile">
+                <li><a href="">Главная</a></li>
+                <li>/</li>
+                <li><a href="">Дом и сад</a></li>
+                <li>/</li>
+                <li><a href="">Декоративная посуда</a></li>
+                <li>/</li>
+                <li class="bread-active">Тарелка Fabulous</li>
+            </ul>
+            <div class="product-top__left">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="product__slide__top row">
+                            <div class="card__top__action">
+                                <img src="/assets/img/action.svg" alt="">
+                                <span>-40%</span>
+                            </div>
+                        </div>
+                        <img src="/assets/img/product.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg" alt="">
+                    </div>
                 </div>
+                <div class="main-slider__dots"></div>
+                <div class="slider-arrows">
+                    <div class="arrow-left">
+                        <img src="/assets/img/arr.svg" alt="">
+                    </div>
+                    <div class="arrow-right">
+                        <img src="/assets/img/arr.svg" alt="">
+                    </div>
+                </div>
+            </div>
 
+            <div class="product-top__right">
+                <ul class="bread row bread-desc">
+                    <li><a href="">Главная</a></li>
+                    <li>/</li>
+                    <li><a href="">Дом и сад</a></li>
+                    <li>/</li>
+                    <li><a href="">Декоративная посуда</a></li>
+                    <li>/</li>
+                    <li class="bread-active">Тарелка Fabulous</li>
+                </ul>
+                <div class="product-top__right__main row row-space">
+                    <h1>
+                        Кружка PrioritY "Paw Patrol / Щенячий патруль" в подарочной коробке", 200 мл, 1 шт
+                    </h1>
+                    <div class="product-top__right__main__right">
+                        <div class="row">
+                            <a href=""><img src="/assets/img/i2.svg" alt=""></a>
+                            <a href=""><img src="/assets/img/i3.svg" alt=""></a>
+                            <a href="" class="return"><img src="/assets/img/i5.svg" alt=""></a>
+                        </div>
+                        <a href="" class="collection-link">Коллекция: Spider-man</a>
+                    </div>
+                </div>
+                <div class="row align-center product__stars">
+                    <div class="row align-center">
+                        <div class="card__raiting">
+                            <img src="/assets/img/star.svg" alt="" class="card__raiting--active">
+                            <img src="/assets/img/star.svg" alt="">
+                            <img src="/assets/img/star.svg" alt="">
+                            <img src="/assets/img/star.svg" alt="">
+                            <img src="/assets/img/star.svg" alt="">
+                        </div>
+                        <div class="card__raiting__number">
+                            123
+                        </div>
+                    </div>
+                    <div class="product__code">
+                        Код товара: <span>2398643Р</span>
+                    </div>
+                </div>
+                <div class="product__actual">
+                    В наличии: <span>15</span> шт
+                </div>
+                <div class="product__price row align-center">
+                    <div class="product__price__main">
+                        212 р.
+                    </div>
+                    <div class="card__old-price">
+                        2021 р.
+                    </div>
+                </div>
+                <div class="product__price__buttons row align-center">
+                    <button class="btn in-cart btn-blue">
+                        Добавить в корзину
+                    </button>
+                    <a href="" class="btn btn-line">Подарить</a>
+                </div>
+                <div class="product__check">
+                    <h4>Хотите упаковать товар?</h4>
+                    <label>
+                        <input type="checkbox">
+                        Подарочная упаковка
+                    </label>
+                    <label>
+                        <input type="checkbox">
+                        Лента
+                    </label>
+                    <label>
+                        <input type="checkbox">
+                        Бантик
+                    </label>
+                </div>
+                <div class="product__slidein">
+                    <div class="product__slidein__visible row row-space">
+                        <h4>
+                            Описание
+                        </h4>
+                        <img src="/assets/img/arr5.svg" alt="">
+                    </div>
+                    <div class="product__slidein__hidden">
+                        <p>
+                            Спасатели-щенки Зума, Маршал, Гонщик, Скай, Рокки, Крепыш и наставник Щенячьего патруля мальчик Райдер ждут тебя для совершения подвигов! Погрузись в мир мультсериала «Paw Patrol» с кружкой от компании PrioritY.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__slidein">
+                    <div class="product__slidein__visible row row-space">
+                        <h4>
+                            Характеристика
+                        </h4>
+                        <img src="/assets/img/arr5.svg" alt="">
+                    </div>
+                    <div class="product__slidein__hidden">
+                        <p>
+                            Спасатели-щенки Зума, Маршал, Гонщик, Скай, Рокки, Крепыш и наставник Щенячьего патруля мальчик Райдер ждут тебя для совершения подвигов! Погрузись в мир мультсериала «Paw Patrol» с кружкой от компании PrioritY.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__slidein">
+                    <div class="product__slidein__visible row row-space">
+                        <h4>
+                            Доставка
+                        </h4>
+                        <img src="/assets/img/arr5.svg" alt="">
+                    </div>
+                    <div class="product__slidein__hidden">
+                        <p>
+                            Спасатели-щенки Зума, Маршал, Гонщик, Скай, Рокки, Крепыш и наставник Щенячьего патруля мальчик Райдер ждут тебя для совершения подвигов! Погрузись в мир мультсериала «Paw Patrol» с кружкой от компании PrioritY.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__slidein">
+                    <div class="product__slidein__visible row row-space">
+                        <h4>
+                            Оплата и возврат
+                        </h4>
+                        <img src="/assets/img/arr5.svg" alt="">
+                    </div>
+                    <div class="product__slidein__hidden">
+                        <p>
+                            Спасатели-щенки Зума, Маршал, Гонщик, Скай, Рокки, Крепыш и наставник Щенячьего патруля мальчик Райдер ждут тебя для совершения подвигов! Погрузись в мир мультсериала «Paw Patrol» с кружкой от компании PrioritY.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__brand row align-center">
+                    <h4>Бренд:</h4>
+                    <a href="" class="row align-center">
+                        <img src="/assets/img/brand.png" alt="">
+                        PrioritY
+                    </a>
+                </div>
             </div>
         </div>
+    </section>
 
-        <div class="row">
-            <div class="col-lg-7">
-                <div class="single_product_pics">
+    <!-- Популярные товары -->
+    <section class="popular product-recomend card-row">
+        <div class="container">
+            <h2>Вам также могут понравиться</h2>
+            <div class="cards__category">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide cards__category--active">
+                        Все
+                    </div>
+                    <div class="swiper-slide">
+                        Детям до 6 лет
+                    </div>
+                    <div class="swiper-slide">
+                        Игрушки
+                    </div>
+                    <div class="swiper-slide">
+                        Посуда
+                    </div>
+                    <div class="swiper-slide">
+                        Детям до 6 лет
+                    </div>
+                    <div class="swiper-slide">
+                        Игрушки
+                    </div>
+                    <div class="swiper-slide">
+                        Посуда
+                    </div>
+                    <div class="swiper-slide">
+                        Игрушки
+                    </div>
+                    <div class="swiper-slide">
+                        Посуда
+                    </div>
+                    <div class="swiper-slide">
+                        Игрушки
+                    </div>
+                    <div class="swiper-slide">
+                        Посуда
+                    </div>
+                    <div class="swiper-slide">
+                        Посуда
+                    </div>
+                    <div class="swiper-slide">
+                        Игрушки
+                    </div>
+                    <div class="swiper-slide">
+                        Посуда
+                    </div>
+                    <div class="swiper-slide">
+                        Игрушки
+                    </div>
+                    <div class="swiper-slide">
+                        Посуда
+                    </div>
+                </div>
+                <div class="slider-arrows">
+                    <div class="arrow-left">
+                        <img src="/assets/img/arr.svg" alt="">
+                    </div>
+                    <div class="arrow-right">
+                        <img src="/assets/img/arr.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card__top">
+                            <div class="card__top__left row align-center">
+                                <div class="card__top__hot">
+                                    <img src="/assets/img/hot.svg" alt="">
+                                </div>
+                                <div class="card__top__action">
+                                    <img src="/assets/img/action.svg" alt="">
+                                    <span>-40%</span>
+                                </div>
+                            </div>
+                            <div class="card__like">
+                                <svg width="25" height="23" viewBox="0 0 25 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.0948 3.67436L12.5 4.2346L12.9051 3.67439C13.3484 3.06156 13.8475 2.54132 14.3939 2.11866C15.4717 1.28527 16.6861 0.867188 18.0162 0.867188C19.809 0.867188 21.4509 1.58312 22.6491 2.88278C23.835 4.16913 24.5 5.9397 24.5 7.88023C24.5 9.85111 23.7723 11.6774 22.1357 13.6521L22.1357 13.6521C20.6561 15.4375 18.5194 17.2604 15.9898 19.416L15.9898 19.4161L15.9682 19.4345C15.1133 20.1631 14.1434 20.9898 13.1369 21.87L13.1367 21.8702C12.961 22.0241 12.7348 22.1092 12.5 22.1092C12.2651 22.1092 12.0391 22.0241 11.863 21.8699L11.8627 21.8696C10.8488 20.9832 9.87267 20.1512 9.01356 19.419L9.01078 19.4166L9.01075 19.4166C6.48081 17.2606 4.34413 15.4375 2.86454 13.6523C1.22786 11.6774 0.5 9.85108 0.5 7.88042C0.5 5.93971 1.16498 4.16913 2.35067 2.88278C3.54894 1.58313 5.19101 0.867188 6.98376 0.867188C8.31387 0.867188 9.52834 1.28527 10.6059 2.11863L10.6059 2.11865C11.1524 2.5413 11.6518 3.06173 12.0948 3.67436Z" fill="transparent" stroke="#4F28EA"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="card__img">
+                            <img src="/assets/img/item1.png" alt="" class="card__img">
+                        </div>
+                        <a href="" class="card__name">Название товара Название товара</a>
+                        <div class="card__middle row row-space">
+                            <div class="card__count">
+                                В наличии: <span>15</span> шт
+                            </div>
+                            <div class="card__old-price">
+                                <span>4600</span> р.
+                            </div>
+                        </div>
+
+                        <div class="card__bottom row row-space">
+                            <div class="card__raiting">
+                                <img src="/assets/img/star.svg" alt="" class="card__raiting--active">
+                                <img src="/assets/img/star.svg" alt=""  class="card__raiting--active">
+                                <img src="/assets/img/star.svg" alt=""  class="card__raiting--active">
+                                <img src="/assets/img/star.svg" alt="">
+                                <img src="/assets/img/star.svg" alt="">
+                            </div>
+                            <div class="card__price">
+                                <span>2500</span> р.
+                            </div>
+                        </div>
+                        <div class="btn card__btn">
+                            Добавить в корзину
+                        </div>
+                        <a href="" class="card__fast">Быстрый просмотр</a>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card__top">
+                            <div class="card__top__left row align-center">
+                                <div class="card__top__hot">
+                                    <img src="/assets/img/hot.svg" alt="">
+                                </div>
+                                <div class="card__top__action">
+                                    <img src="/assets/img/action.svg" alt="">
+                                    <span>-40%</span>
+                                </div>
+                            </div>
+                            <div class="card__like">
+                                <svg width="25" height="23" viewBox="0 0 25 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.0948 3.67436L12.5 4.2346L12.9051 3.67439C13.3484 3.06156 13.8475 2.54132 14.3939 2.11866C15.4717 1.28527 16.6861 0.867188 18.0162 0.867188C19.809 0.867188 21.4509 1.58312 22.6491 2.88278C23.835 4.16913 24.5 5.9397 24.5 7.88023C24.5 9.85111 23.7723 11.6774 22.1357 13.6521L22.1357 13.6521C20.6561 15.4375 18.5194 17.2604 15.9898 19.416L15.9898 19.4161L15.9682 19.4345C15.1133 20.1631 14.1434 20.9898 13.1369 21.87L13.1367 21.8702C12.961 22.0241 12.7348 22.1092 12.5 22.1092C12.2651 22.1092 12.0391 22.0241 11.863 21.8699L11.8627 21.8696C10.8488 20.9832 9.87267 20.1512 9.01356 19.419L9.01078 19.4166L9.01075 19.4166C6.48081 17.2606 4.34413 15.4375 2.86454 13.6523C1.22786 11.6774 0.5 9.85108 0.5 7.88042C0.5 5.93971 1.16498 4.16913 2.35067 2.88278C3.54894 1.58313 5.19101 0.867188 6.98376 0.867188C8.31387 0.867188 9.52834 1.28527 10.6059 2.11863L10.6059 2.11865C11.1524 2.5413 11.6518 3.06173 12.0948 3.67436Z" fill="transparent" stroke="#4F28EA"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="card__img">
+                            <img src="/assets/img/item1.png" alt="" class="card__img">
+                        </div>
+                        <a href="" class="card__name">Название товара Название товара</a>
+                        <div class="card__middle row row-space">
+                            <div class="card__count">
+                                В наличии: <span>15</span> шт
+                            </div>
+                            <div class="card__old-price">
+                                <span>4600</span> р.
+                            </div>
+                        </div>
+
+                        <div class="card__bottom row row-space">
+                            <div class="card__raiting">
+                                <img src="/assets/img/star.svg" alt="" class="card__raiting--active">
+                                <img src="/assets/img/star.svg" alt=""  class="card__raiting--active">
+                                <img src="/assets/img/star.svg" alt=""  class="card__raiting--active">
+                                <img src="/assets/img/star.svg" alt="">
+                                <img src="/assets/img/star.svg" alt="">
+                            </div>
+                            <div class="card__price">
+                                <span>2500</span> р.
+                            </div>
+                        </div>
+                        <div class="btn card__btn">
+                            Добавить в корзину
+                        </div>
+                        <a href="" class="card__fast">Быстрый просмотр</a>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card__top">
+                            <div class="card__top__left row align-center">
+                                <div class="card__top__hot">
+                                    <img src="/assets/img/hot.svg" alt="">
+                                </div>
+                                <div class="card__top__action">
+                                    <img src="/assets/img/action.svg" alt="">
+                                    <span>-40%</span>
+                                </div>
+                            </div>
+                            <div class="card__like">
+                                <svg width="25" height="23" viewBox="0 0 25 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.0948 3.67436L12.5 4.2346L12.9051 3.67439C13.3484 3.06156 13.8475 2.54132 14.3939 2.11866C15.4717 1.28527 16.6861 0.867188 18.0162 0.867188C19.809 0.867188 21.4509 1.58312 22.6491 2.88278C23.835 4.16913 24.5 5.9397 24.5 7.88023C24.5 9.85111 23.7723 11.6774 22.1357 13.6521L22.1357 13.6521C20.6561 15.4375 18.5194 17.2604 15.9898 19.416L15.9898 19.4161L15.9682 19.4345C15.1133 20.1631 14.1434 20.9898 13.1369 21.87L13.1367 21.8702C12.961 22.0241 12.7348 22.1092 12.5 22.1092C12.2651 22.1092 12.0391 22.0241 11.863 21.8699L11.8627 21.8696C10.8488 20.9832 9.87267 20.1512 9.01356 19.419L9.01078 19.4166L9.01075 19.4166C6.48081 17.2606 4.34413 15.4375 2.86454 13.6523C1.22786 11.6774 0.5 9.85108 0.5 7.88042C0.5 5.93971 1.16498 4.16913 2.35067 2.88278C3.54894 1.58313 5.19101 0.867188 6.98376 0.867188C8.31387 0.867188 9.52834 1.28527 10.6059 2.11863L10.6059 2.11865C11.1524 2.5413 11.6518 3.06173 12.0948 3.67436Z" fill="transparent" stroke="#4F28EA"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="card__img">
+                            <img src="/assets/img/item1.png" alt="" class="card__img">
+                        </div>
+                        <a href="" class="card__name">Название товара Название товара</a>
+                        <div class="card__middle row row-space">
+                            <div class="card__count">
+                                В наличии: <span>15</span> шт
+                            </div>
+                            <div class="card__old-price">
+                                <span>4600</span> р.
+                            </div>
+                        </div>
+
+                        <div class="card__bottom row row-space">
+                            <div class="card__raiting">
+                                <img src="/assets/img/star.svg" alt="" class="card__raiting--active">
+                                <img src="/assets/img/star.svg" alt=""  class="card__raiting--active">
+                                <img src="/assets/img/star.svg" alt=""  class="card__raiting--active">
+                                <img src="/assets/img/star.svg" alt="">
+                                <img src="/assets/img/star.svg" alt="">
+                            </div>
+                            <div class="card__price">
+                                <span>2500</span> р.
+                            </div>
+                        </div>
+                        <div class="btn card__btn">
+                            Добавить в корзину
+                        </div>
+                        <a href="" class="card__fast">Быстрый просмотр</a>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card__top">
+                            <div class="card__top__left row align-center">
+                                <div class="card__top__hot">
+                                    <img src="/assets/img/hot.svg" alt="">
+                                </div>
+                                <div class="card__top__action">
+                                    <img src="/assets/img/action.svg" alt="">
+                                    <span>-40%</span>
+                                </div>
+                            </div>
+                            <div class="card__like">
+                                <svg width="25" height="23" viewBox="0 0 25 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.0948 3.67436L12.5 4.2346L12.9051 3.67439C13.3484 3.06156 13.8475 2.54132 14.3939 2.11866C15.4717 1.28527 16.6861 0.867188 18.0162 0.867188C19.809 0.867188 21.4509 1.58312 22.6491 2.88278C23.835 4.16913 24.5 5.9397 24.5 7.88023C24.5 9.85111 23.7723 11.6774 22.1357 13.6521L22.1357 13.6521C20.6561 15.4375 18.5194 17.2604 15.9898 19.416L15.9898 19.4161L15.9682 19.4345C15.1133 20.1631 14.1434 20.9898 13.1369 21.87L13.1367 21.8702C12.961 22.0241 12.7348 22.1092 12.5 22.1092C12.2651 22.1092 12.0391 22.0241 11.863 21.8699L11.8627 21.8696C10.8488 20.9832 9.87267 20.1512 9.01356 19.419L9.01078 19.4166L9.01075 19.4166C6.48081 17.2606 4.34413 15.4375 2.86454 13.6523C1.22786 11.6774 0.5 9.85108 0.5 7.88042C0.5 5.93971 1.16498 4.16913 2.35067 2.88278C3.54894 1.58313 5.19101 0.867188 6.98376 0.867188C8.31387 0.867188 9.52834 1.28527 10.6059 2.11863L10.6059 2.11865C11.1524 2.5413 11.6518 3.06173 12.0948 3.67436Z" fill="transparent" stroke="#4F28EA"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="card__img">
+                            <img src="/assets/img/item1.png" alt="" class="card__img">
+                        </div>
+                        <a href="" class="card__name">Название товара Название товара</a>
+                        <div class="card__middle row row-space">
+                            <div class="card__count">
+                                В наличии: <span>15</span> шт
+                            </div>
+                            <div class="card__old-price">
+                                <span>4600</span> р.
+                            </div>
+                        </div>
+
+                        <div class="card__bottom row row-space">
+                            <div class="card__raiting">
+                                <img src="/assets/img/star.svg" alt="" class="card__raiting--active">
+                                <img src="/assets/img/star.svg" alt=""  class="card__raiting--active">
+                                <img src="/assets/img/star.svg" alt=""  class="card__raiting--active">
+                                <img src="/assets/img/star.svg" alt="">
+                                <img src="/assets/img/star.svg" alt="">
+                            </div>
+                            <div class="card__price">
+                                <span>2500</span> р.
+                            </div>
+                        </div>
+                        <div class="btn card__btn">
+                            Добавить в корзину
+                        </div>
+                        <a href="" class="card__fast">Быстрый просмотр</a>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card__top">
+                            <div class="card__top__left row align-center">
+                                <div class="card__top__hot">
+                                    <img src="/assets/img/hot.svg" alt="">
+                                </div>
+                                <div class="card__top__action">
+                                    <img src="/assets/img/action.svg" alt="">
+                                    <span>-40%</span>
+                                </div>
+                            </div>
+                            <div class="card__like">
+                                <svg width="25" height="23" viewBox="0 0 25 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.0948 3.67436L12.5 4.2346L12.9051 3.67439C13.3484 3.06156 13.8475 2.54132 14.3939 2.11866C15.4717 1.28527 16.6861 0.867188 18.0162 0.867188C19.809 0.867188 21.4509 1.58312 22.6491 2.88278C23.835 4.16913 24.5 5.9397 24.5 7.88023C24.5 9.85111 23.7723 11.6774 22.1357 13.6521L22.1357 13.6521C20.6561 15.4375 18.5194 17.2604 15.9898 19.416L15.9898 19.4161L15.9682 19.4345C15.1133 20.1631 14.1434 20.9898 13.1369 21.87L13.1367 21.8702C12.961 22.0241 12.7348 22.1092 12.5 22.1092C12.2651 22.1092 12.0391 22.0241 11.863 21.8699L11.8627 21.8696C10.8488 20.9832 9.87267 20.1512 9.01356 19.419L9.01078 19.4166L9.01075 19.4166C6.48081 17.2606 4.34413 15.4375 2.86454 13.6523C1.22786 11.6774 0.5 9.85108 0.5 7.88042C0.5 5.93971 1.16498 4.16913 2.35067 2.88278C3.54894 1.58313 5.19101 0.867188 6.98376 0.867188C8.31387 0.867188 9.52834 1.28527 10.6059 2.11863L10.6059 2.11865C11.1524 2.5413 11.6518 3.06173 12.0948 3.67436Z" fill="transparent" stroke="#4F28EA"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="card__img">
+                            <img src="/assets/img/item1.png" alt="" class="card__img">
+                        </div>
+                        <a href="" class="card__name">Название товара Название товара</a>
+                        <div class="card__middle row row-space">
+                            <div class="card__count">
+                                В наличии: <span>15</span> шт
+                            </div>
+                            <div class="card__old-price">
+                                <span>4600</span> р.
+                            </div>
+                        </div>
+
+                        <div class="card__bottom row row-space">
+                            <div class="card__raiting">
+                                <img src="/assets/img/star.svg" alt="" class="card__raiting--active">
+                                <img src="/assets/img/star.svg" alt=""  class="card__raiting--active">
+                                <img src="/assets/img/star.svg" alt=""  class="card__raiting--active">
+                                <img src="/assets/img/star.svg" alt="">
+                                <img src="/assets/img/star.svg" alt="">
+                            </div>
+                            <div class="card__price">
+                                <span>2500</span> р.
+                            </div>
+                        </div>
+                        <div class="btn card__btn">
+                            Добавить в корзину
+                        </div>
+                        <a href="" class="card__fast">Быстрый просмотр</a>
+                    </div>
+
+                </div>
+                <div class="main-slider__dots"></div>
+            </div>
+        </div>
+        <div class="slider-arrows slider-arrows-main">
+            <div class="arrow-left">
+                <img src="/assets/img/arr.svg" alt="">
+            </div>
+            <div class="arrow-right">
+                <img src="/assets/img/arr.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Отзывы -->
+    <section class="review">
+        <div class="container">
+            <h2>Отзывы покупателей</h2>
+            <div class="review__wrapper row row-space">
+                <div class="review__left">
+
+                    <div class="review__item">
+                        <div class="review__name">
+                            Валерий
+                        </div>
+                        <div class="row align-center">
+                            <div class="card__raiting">
+                                <img src="/assets/img/star.svg" alt="" class="card__raiting--active">
+                                <img src="/assets/img/star.svg" alt=""  class="card__raiting--active">
+                                <img src="/assets/img/star.svg" alt=""  class="card__raiting--active">
+                                <img src="/assets/img/star.svg" alt="">
+                                <img src="/assets/img/star.svg" alt="">
+                            </div>
+                            <div class="review__date">
+                                12.12.2021
+                            </div>
+                        </div>
+                        <div class="review__body">
+                            <p>
+                                Современные технологии достигли такого уровня, что граница обучения кадров требует анализа стандартных подходов. В частности, повышение уровня гражданского сознания обеспечивает
+                            </p>
+                        </div>
+                        <div class="review__info">
+                            <div class="review__info__name">
+                                Достоинства:
+                            </div>
+                            <div class="review__info__text">
+                                Цена и качество
+                            </div>
+                        </div>
+                        <div class="review__info">
+                            <div class="review__info__name">
+                                Недостатки:
+                            </div>
+                            <div class="review__info__text">
+                                Не обнаружил
+                            </div>
+                        </div>
+                        <div class="review__info">
+                            <div class="review__info__name">
+                                Ccылки:
+                            </div>
+                            <div class="review__info__text">
+                                <a href="https://www.ozon.ru/context/detail/id/162478613/">https://www.ozon.ru/context/detail/id/162478613/</a>
+
+                            </div>
+                        </div>
+                        <button class="review__response row">
+                            <img src="/assets/img/arr6.svg" alt="">
+                            Ответить
+                        </button>
+                    </div>
+                    <div class="review__item">
+                        <div class="review__name">
+                            Валерий
+                        </div>
+                        <div class="row">
+                            <div class="card__raiting">
+                                <img src="/assets/img/star.svg" alt="">
+                                <img src="/assets/img/star.svg" alt="">
+                                <img src="/assets/img/star.svg" alt="">
+                                <img src="/assets/img/star.svg" alt="">
+                                <img src="/assets/img/star.svg" alt="">
+                            </div>
+                            <div class="review__date">
+                                12.12.2021
+                            </div>
+                        </div>
+                        <div class="review__body">
+                            <p>
+                                Современные технологии достигли такого уровня, что граница обучения кадров требует анализа стандартных подходов. В частности, повышение уровня гражданского сознания обеспечивает
+                            </p>
+                        </div>
+                        <div class="review__info">
+                            <div class="review__info__name">
+                                Достоинства:
+                            </div>
+                            <div class="review__info__text">
+                                Цена и качество
+                            </div>
+                        </div>
+                        <div class="review__info">
+                            <div class="review__info__name">
+                                Недостатки:
+                            </div>
+                            <div class="review__info__text">
+                                Не обнаружил
+                            </div>
+                        </div>
+                        <div class="review__info">
+                            <div class="review__info__name">
+                                Ccылки:
+                            </div>
+                            <div class="review__info__text">
+                                https://www.ozon.ru/context/detail/id/162478613/
+                            </div>
+                        </div>
+                        <button class="review__response row">
+                            <img src="/assets/img/arr6.svg" alt="">
+                            Ответить
+                        </button>
+                    </div>
+                    <button class="review__all">
+                        Посмотреть все отзывы
+                    </button>
+                </div>
+                <div class="review__right">
+                    <h3>Оценка пользователей</h3>
                     <div class="row">
-                        <div class="col-lg-3 thumbnails_col order-lg-1 order-2">
-                            <div class="single_product_thumbnails">
-                                <ul>
-                                    <li><img src="front/images/single_1_thumb.jpg" alt="" data-image="front/images/single_1.jpg"></li>
-                                    <li class="active"><img src="front/images/single_2_thumb.jpg" alt="" data-image="front/images/single_2.jpg"></li>
-                                    <li><img src="front/images/single_3_thumb.jpg" alt="" data-image="front/images/single_3.jpg"></li>
-                                </ul>
-                            </div>
+                        <div class="review__total">
+                            4.0
                         </div>
-                        <div class="col-lg-9 image_col order-lg-2 order-1">
-                            <div class="single_product_image">
-                                <div class="single_product_image_background" style="background-image:url(front/images/single_2.jpg)"></div>
+                        <div class="review__total__stars">
+                            <div class="card__raiting">
+                                <img src="/assets/img/star.svg" alt="" class="card__raiting--active">
+                                <img src="/assets/img/star.svg" alt=""  class="card__raiting--active">
+                                <img src="/assets/img/star.svg" alt=""  class="card__raiting--active">
+                                <img src="/assets/img/star.svg" alt="">
+                                <img src="/assets/img/star.svg" alt="">
                             </div>
+                            <p>Отзывов 149</p>
                         </div>
                     </div>
+                    <div class="review__table">
+                        <div class="review__table__row row">
+                            <span>5 звёзд</span>
+                            <div class="review__table__indicator" data-number="80"></div>
+                        </div>
+                        <div class="review__table__row row">
+                            <span>4 звезды</span>
+                            <div class="review__table__indicator" data-number="50"></div>
+                        </div>
+                        <div class="review__table__row row">
+                            <span>3 звезды</span>
+                            <div class="review__table__indicator" data-number="30"></div>
+                        </div>
+                        <div class="review__table__row row">
+                            <span>2 звезды</span>
+                            <div class="review__table__indicator" data-number="0"></div>
+                        </div>
+                        <div class="review__table__row row">
+                            <span>1 звезда</span>
+                            <div class="review__table__indicator" data-number="0"></div>
+                        </div>
+                    </div>
+                    <button class="btn in-cart">
+                        Оставить отзыв
+                    </button>
+                    <p class="review__credits">
+                        Получите баллы на скидку за отзыв о покупке!
+                    </p>
                 </div>
             </div>
-            <div class="col-lg-5">
-                <div class="product_details">
-                    <div class="product_details_title">
-                        <h2>Pocket cotton sweatshirt</h2>
-                        <p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut...</p>
-                    </div>
-                    <div class="free_delivery d-flex flex-row align-items-center justify-content-center">
-                        <span class="ti-truck"></span><span>free delivery</span>
-                    </div>
-                    <div class="original_price">$629.99</div>
-                    <div class="product_price">$495.00</div>
-                    <ul class="star_rating">
-                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                        <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                        <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                    </ul>
-                    <div class="product_color">
-                        <span>Select Color:</span>
-                        <ul>
-                            <li style="background: #e54e5d"></li>
-                            <li style="background: #252525"></li>
-                            <li style="background: #60b3f3"></li>
-                        </ul>
-                    </div>
-                    <div class="quantity d-flex flex-column flex-sm-row align-items-sm-center">
-                        <span>Quantity:</span>
-                        <div class="quantity_selector">
-                            <span class="minus"><i class="fa fa-minus" aria-hidden="true"></i></span>
-                            <span id="quantity_value">1</span>
-                            <span class="plus"><i class="fa fa-plus" aria-hidden="true"></i></span>
-                        </div>
-                        <div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
-                        <div class="product_favorite d-flex flex-column align-items-center justify-content-center"></div>
-                    </div>
-                </div>
-            </div>
+
+
         </div>
+    </section>
 
-    </div>
-
-    <!-- Tabs -->
-
-    <div class="tabs_section_container">
-
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="tabs_container">
-                        <ul class="tabs d-flex flex-sm-row flex-column align-items-left align-items-md-center justify-content-center">
-                            <li class="tab active" data-active-tab="tab_1"><span>Description</span></li>
-                            <li class="tab" data-active-tab="tab_2"><span>Additional Information</span></li>
-                            <li class="tab" data-active-tab="tab_3"><span>Reviews (2)</span></li>
-                        </ul>
-                    </div>
+    <div class="popup-product">
+        <div class="popup-product__wrapper">
+            <div class="popup-product__content">
+                <div class="popup-close">
+                    <img src="/assets/img/close.svg" alt="">
                 </div>
-            </div>
-            <div class="row">
-                <div class="col">
-
-                    <!-- Tab Description -->
-
-                    <div id="tab_1" class="tab_container active">
-                        <div class="row">
-                            <div class="col-lg-5 desc_col">
-                                <div class="tab_title">
-                                    <h4>Description</h4>
-                                </div>
-                                <div class="tab_text_block">
-                                    <h2>Pocket cotton sweatshirt</h2>
-                                    <p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut...</p>
-                                </div>
-                                <div class="tab_image">
-                                    <img src="front/images/desc_1.jpg" alt="">
-                                </div>
-                                <div class="tab_text_block">
-                                    <h2>Pocket cotton sweatshirt</h2>
-                                    <p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut...</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-5 offset-lg-2 desc_col">
-                                <div class="tab_image">
-                                    <img src="front/images/desc_2.jpg" alt="">
-                                </div>
-                                <div class="tab_text_block">
-                                    <h2>Pocket cotton sweatshirt</h2>
-                                    <p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut...</p>
-                                </div>
-                                <div class="tab_image desc_last">
-                                    <img src="front/images/desc_3.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Tab Additional Info -->
-
-                    <div id="tab_2" class="tab_container">
-                        <div class="row">
-                            <div class="col additional_info_col">
-                                <div class="tab_title additional_info_title">
-                                    <h4>Additional Information</h4>
-                                </div>
-                                <p>COLOR:<span>Gold, Red</span></p>
-                                <p>SIZE:<span>L,M,XL</span></p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Tab Reviews -->
-
-                    <div id="tab_3" class="tab_container">
-                        <div class="row">
-
-                            <!-- User Reviews -->
-
-                            <div class="col-lg-6 reviews_col">
-                                <div class="tab_title reviews_title">
-                                    <h4>Reviews (2)</h4>
-                                </div>
-
-                                <!-- User Review -->
-
-                                <div class="user_review_container d-flex flex-column flex-sm-row">
-                                    <div class="user">
-                                        <div class="user_pic"></div>
-                                        <div class="user_rating">
-                                            <ul class="star_rating">
-                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                            </ul>
+                <section class="product-top">
+                    <div class="row row-space">
+                        <div class="product-top__left">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="product__slide__top row">
+                                        <div class="card__top__action">
+                                            <img src="/assets/img/action.svg" alt="">
+                                            <span>-40%</span>
                                         </div>
                                     </div>
-                                    <div class="review">
-                                        <div class="review_date">27 Aug 2016</div>
-                                        <div class="user_name">Brandon William</div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    </div>
+                                    <img src="/assets/img/product.jpg" alt="">
                                 </div>
-
-                                <!-- User Review -->
-
-                                <div class="user_review_container d-flex flex-column flex-sm-row">
-                                    <div class="user">
-                                        <div class="user_pic"></div>
-                                        <div class="user_rating">
-                                            <ul class="star_rating">
-                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="review">
-                                        <div class="review_date">27 Aug 2016</div>
-                                        <div class="user_name">Brandon William</div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    </div>
+                                <div class="swiper-slide">
+                                    <img src="https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg" alt="">
                                 </div>
                             </div>
-
-                            <!-- Add Review -->
-
-                            <div class="col-lg-6 add_review_col">
-
-                                <div class="add_review">
-                                    <form id="review_form" action="post">
-                                        <div>
-                                            <h1>Add Review</h1>
-                                            <input id="review_name" class="form_input input_name" type="text" name="name" placeholder="Name*" required="required" data-error="Name is required.">
-                                            <input id="review_email" class="form_input input_email" type="email" name="email" placeholder="Email*" required="required" data-error="Valid email is required.">
-                                        </div>
-                                        <div>
-                                            <h1>Your Rating:</h1>
-                                            <ul class="user_star_rating">
-                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-                                            </ul>
-                                            <textarea id="review_message" class="input_review" name="message"  placeholder="Your Review" rows="4" required data-error="Please, leave us a review."></textarea>
-                                        </div>
-                                        <div class="text-left text-sm-right">
-                                            <button id="review_submit" type="submit" class="red_button review_submit_btn trans_300" value="Submit">submit</button>
-                                        </div>
-                                    </form>
+                            <div class="main-slider__dots"></div>
+                            <div class="slider-arrows">
+                                <div class="arrow-left">
+                                    <img src="/assets/img/arr.svg" alt="">
                                 </div>
-
+                                <div class="arrow-right">
+                                    <img src="/assets/img/arr.svg" alt="">
+                                </div>
                             </div>
+                        </div>
 
+                        <div class="product-top__right">
+                            <div class="product-top__right__main row row-space">
+                                <h1>
+                                    Кружка PrioritY "Paw Patrol / Щенячий патруль" в подарочной коробке", 200 мл, 1 шт
+                                </h1>
+                                <div class="product-top__right__main__right">
+                                    <a href="" class="return"><img src="/assets/img/pop1.svg" alt=""></a>
+                                    <a href="" class="popup__btn"><img src="/assets/img/pop2.svg" alt=""></a>
+                                    <a href="" class="popup__btn"><img src="/assets/img/pop3.svg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="row align-center product__stars">
+                                <div class="row align-center">
+                                    <div class="card__raiting">
+                                        <img src="/assets/img/star.svg" alt="" class="card__raiting--active">
+                                        <img src="/assets/img/star.svg" alt="">
+                                        <img src="/assets/img/star.svg" alt="">
+                                        <img src="/assets/img/star.svg" alt="">
+                                        <img src="/assets/img/star.svg" alt="">
+                                    </div>
+                                    <div class="card__raiting__number">
+                                        123
+                                    </div>
+                                </div>
+                                <div class="product__code">
+                                    Код товара: <span>2398643Р</span>
+                                </div>
+                            </div>
+                            <div class="product__actual">
+                                В наличии: <span>15</span> шт
+                            </div>
+                            <div class="product__price row align-center">
+                                <div class="product__price__main">
+                                    212 р.
+                                </div>
+                                <div class="card__old-price">
+                                    2021 р.
+                                </div>
+                            </div>
+                            <div class="product__descr">
+                                <div class="product__slidein__visible row row-space">
+                                    <h4>
+                                        Описание
+                                    </h4>
+                                </div>
+                                <div class="product__descr__text">
+                                    <p>
+                                        Спасатели-щенки Зума, Маршал, Гонщик, Скай, Рокки, Крепыш и наставник Щенячьего патруля мальчик Райдер ждут тебя для совершения подвигов! Погрузись в мир мультсериала «Paw Patrol» с кружкой от компании PrioritY.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="product__price__buttons row align-center">
+                                <button class="btn card__btn">
+                                    Добавить в корзину
+                                </button>
+                                <a href="" class="product__route">Посмотреть полностью</a>
+                            </div>
                         </div>
                     </div>
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <!-- Benefit -->
-
-    <div class="benefit">
-        <div class="container">
-            <div class="row benefit_row">
-                <div class="col-lg-3 benefit_col">
-                    <div class="benefit_item d-flex flex-row align-items-center">
-                        <div class="benefit_icon"><i class="fa fa-truck" aria-hidden="true"></i></div>
-                        <div class="benefit_content">
-                            <h6>free shipping</h6>
-                            <p>Suffered Alteration in Some Form</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 benefit_col">
-                    <div class="benefit_item d-flex flex-row align-items-center">
-                        <div class="benefit_icon"><i class="fa fa-money" aria-hidden="true"></i></div>
-                        <div class="benefit_content">
-                            <h6>cach on delivery</h6>
-                            <p>The Internet Tend To Repeat</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 benefit_col">
-                    <div class="benefit_item d-flex flex-row align-items-center">
-                        <div class="benefit_icon"><i class="fa fa-undo" aria-hidden="true"></i></div>
-                        <div class="benefit_content">
-                            <h6>45 days return</h6>
-                            <p>Making it Look Like Readable</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 benefit_col">
-                    <div class="benefit_item d-flex flex-row align-items-center">
-                        <div class="benefit_icon"><i class="fa fa-clock-o" aria-hidden="true"></i></div>
-                        <div class="benefit_content">
-                            <h6>opening all week</h6>
-                            <p>8AM - 09PM</p>
-                        </div>
-                    </div>
-                </div>
+                </section>
             </div>
         </div>
     </div>
