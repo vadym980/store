@@ -1,73 +1,89 @@
-<!-- Newsletter -->
-<div class="newsletter">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="newsletter_text d-flex flex-column justify-content-center align-items-lg-start align-items-md-center text-center">
-                    <h4>Newsletter</h4>
-                    <p>Subscribe to our newsletter and get 20% off your first purchase</p>
+    <footer>
+        <div class="container row row-space">
+            <div class="footer-col">
+                <a href="" class="footer__logo"><img src="/assets/img/logo2.svg" alt=""></a>
+                <div class="row">
+                    <img src="/assets/img/pay1.png" alt="">
+                    <img src="/assets/img/pay2.svg" alt="">
                 </div>
+                <p>©Все права защищены</p>
             </div>
-            <div class="col-lg-6">
-                <form action="post">
-                    <div class="newsletter_form d-flex flex-md-row flex-column flex-xs-column align-items-center justify-content-lg-end justify-content-center">
-                        <input id="newsletter_email" type="email" placeholder="Your email" required="required" data-error="Valid email is required.">
-                        <button id="newsletter_submit" type="submit" class="newsletter_submit_btn trans_300" value="Submit">subscribe</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-<footer class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="footer_nav_container d-flex flex-sm-row flex-column align-items-center justify-content-lg-start justify-content-center text-center">
-                    <ul class="footer_nav">
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">FAQs</a></li>
-                        <li><a href="contact.html">Contact us</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="footer_social d-flex flex-row align-items-center justify-content-lg-end justify-content-center">
+            <div class="footer-col">
+                <nav>
                     <ul>
-                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                        <li><a href="">Конструктор подарка</a></li>
+                        <li><a href="">Вопрос - ответ</a></li>
+                        <li><a href="">Статьи</a></li>
                     </ul>
+                    <ul>
+                        <li><a href="">Доставка</a></li>
+                        <li><a href="">Оплата</a></li>
+                        <li><a href="">О нас</a></li>
+                        <li><a href="">Бренды</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">Гарантии и возврат</a></li>
+                        <li><a href="">Контакты</a></li>
+                        <li><a href="">Помощь</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-col">
+                <div class="footer__settings row row-space">
+                    <a href="">
+                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.5 12.5322C5.91183 12.5322 0.551758 17.8924 0.551758 24.4805C0.551758 24.7673 0.784506 25 1.07127 25C1.35802 25 1.59077 24.7673 1.59077 24.4805C1.59077 18.4648 6.48438 13.5712 12.5001 13.5712C18.5158 13.5712 23.4094 18.4648 23.4094 24.4805C23.4094 24.7673 23.6421 25 23.9289 25C24.2157 25 24.4484 24.7673 24.4484 24.4805C24.4484 17.8913 19.0882 12.5322 12.5 12.5322Z" fill="black"/>
+                            <path d="M12.5 0C9.34982 0 6.78564 2.56315 6.78564 5.71439C6.78564 8.86562 9.34987 11.4288 12.5 11.4288C15.6502 11.4288 18.2144 8.86562 18.2144 5.71439C18.2144 2.56315 15.6502 0 12.5 0ZM12.5 10.3898C9.92231 10.3898 7.82461 8.2921 7.82461 5.71439C7.82461 3.13667 9.92231 1.03897 12.5 1.03897C15.0777 1.03897 17.1754 3.13667 17.1754 5.71439C17.1754 8.2921 15.0777 10.3898 12.5 10.3898Z" fill="black"/>
+                        </svg>
+                    </a>
+                    <a href="">
+                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24.4572 11.3792C24.9493 10.8996 25.123 10.1958 24.9108 9.54149C24.698 8.88721 24.1439 8.42015 23.4631 8.32103L17.4098 7.44147C17.152 7.40393 16.9292 7.24223 16.8141 7.00845L14.1078 1.52337C13.804 0.907129 13.1872 0.52417 12.4999 0.52417C11.8131 0.52417 11.1963 0.907129 10.8925 1.52337L8.18572 7.00845C8.07058 7.24223 7.84731 7.40393 7.5895 7.44147L1.53624 8.32153C0.855923 8.42015 0.301758 8.88721 0.089003 9.54149C-0.123252 10.1958 0.0504568 10.8996 0.542547 11.3792L4.9223 15.6483C5.10903 15.8305 5.19463 16.0929 5.15058 16.3492L4.11684 22.3779C4.0007 23.0552 4.27352 23.7265 4.82969 24.131C5.38536 24.536 6.10873 24.5885 6.71796 24.2677L12.1315 21.4212C12.3622 21.3001 12.6376 21.3001 12.8683 21.4212L18.2823 24.2677C18.5467 24.4068 18.833 24.4754 19.1178 24.4754C19.4878 24.4754 19.8562 24.3598 20.1706 24.131C20.7268 23.7265 20.9996 23.0552 20.8835 22.3779L19.8492 16.3497C19.8052 16.0929 19.8908 15.831 20.0775 15.6488L24.4572 11.3792ZM18.863 16.5189L19.8968 22.5471C19.9488 22.8505 19.8312 23.1403 19.5819 23.3215C19.3321 23.5022 19.0212 23.5243 18.7484 23.3821L13.3344 20.5352C13.0736 20.3985 12.7862 20.3294 12.4999 20.3294C12.2136 20.3294 11.9267 20.3985 11.6654 20.5357L6.2524 23.3821C5.97857 23.5243 5.6677 23.5022 5.4184 23.3215C5.1691 23.1403 5.05196 22.851 5.10352 22.5471L6.13726 16.5189C6.23688 15.9372 6.04415 15.3435 5.62164 14.932L1.24139 10.6623C1.02062 10.4471 0.945531 10.1437 1.04115 9.85086C1.13626 9.55751 1.37505 9.35627 1.67991 9.31172L7.73268 8.43216C8.31688 8.34756 8.82198 7.98112 9.0828 7.45148L11.7895 1.9664C11.9257 1.69007 12.1915 1.52537 12.4994 1.52537C12.8078 1.52537 13.0731 1.69007 13.2097 1.9664L15.9165 7.45148C16.1773 7.98112 16.6819 8.34756 17.2661 8.43216L23.3194 9.31172C23.6242 9.35627 23.863 9.55751 23.9581 9.85086C24.0533 10.1437 23.9787 10.4471 23.7579 10.6623L19.3782 14.9315C18.9556 15.3435 18.7629 15.9367 18.863 16.5189Z" fill="black"/>
+                        </svg>
+
+                    </a>
+                    <a href="">
+                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.5 23.6092C12.1441 23.6092 11.8009 23.4802 11.5335 23.246C10.5236 22.3629 9.54989 21.533 8.69082 20.801L8.68643 20.7972C6.16778 18.6508 3.99284 16.7973 2.47955 14.9714C0.787924 12.9301 0 10.9947 0 8.88042C0 6.82621 0.704382 4.93107 1.98326 3.54385C3.27739 2.14024 5.05313 1.36719 6.98393 1.36719C8.42703 1.36719 9.74863 1.82343 10.9119 2.72312C11.499 3.17726 12.0312 3.73306 12.5 4.38137C12.969 3.73306 13.501 3.17726 14.0882 2.72312C15.2515 1.82343 16.5731 1.36719 18.0162 1.36719C19.9468 1.36719 21.7228 2.14024 23.0169 3.54385C24.2958 4.93107 25 6.82621 25 8.88042C25 10.9947 24.2122 12.9301 22.5206 14.9712C21.0073 16.7973 18.8326 18.6506 16.3143 20.7968C15.4537 21.53 14.4785 22.3612 13.4662 23.2464C13.199 23.4802 12.8557 23.6092 12.5 23.6092ZM6.98393 2.83165C5.46702 2.83165 4.07352 3.43704 3.05976 4.53644C2.03094 5.65243 1.46427 7.19509 1.46427 8.88042C1.46427 10.6586 2.12516 12.249 3.60698 14.0369C5.03921 15.7652 7.16952 17.5806 9.6361 19.6827L9.64068 19.6865C10.503 20.4214 11.4805 21.2545 12.4979 22.1441C13.5214 21.2528 14.5004 20.4184 15.3644 19.6823C17.8308 17.5802 19.9609 15.7652 21.3932 14.0369C22.8748 12.249 23.5357 10.6586 23.5357 8.88042C23.5357 7.19509 22.969 5.65243 21.9402 4.53644C20.9266 3.43704 19.5329 2.83165 18.0162 2.83165C16.905 2.83165 15.8848 3.18489 14.9839 3.88145C14.1811 4.50249 13.6219 5.28755 13.294 5.83687C13.1254 6.11935 12.8286 6.28796 12.5 6.28796C12.1713 6.28796 11.8746 6.11935 11.7059 5.83687C11.3783 5.28755 10.819 4.50249 10.016 3.88145C9.1152 3.18489 8.09496 2.83165 6.98393 2.83165Z" fill="#454545"/>
+                        </svg>
+                    </a>
+                    <a href="" class="menu__cart">
+                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.05473 16.1623H8.05588C8.05683 16.1623 8.05779 16.1621 8.05874 16.1621H21.3379C21.6648 16.1621 21.9522 15.9452 22.0421 15.6309L24.9718 5.37701C25.0349 5.15594 24.9907 4.91829 24.8524 4.7348C24.7139 4.55132 24.4974 4.44336 24.2676 4.44336H6.36559L5.84202 2.08721C5.76744 1.75209 5.47028 1.51367 5.12695 1.51367H0.732422C0.327873 1.51367 0 1.84155 0 2.24609C0 2.65064 0.327873 2.97852 0.732422 2.97852H4.53949C4.63219 3.39603 7.04498 14.2538 7.18384 14.8785C6.40545 15.2168 5.85938 15.9929 5.85938 16.8945C5.85938 18.1061 6.84509 19.0918 8.05664 19.0918H21.3379C21.7424 19.0918 22.0703 18.7639 22.0703 18.3594C22.0703 17.9548 21.7424 17.627 21.3379 17.627H8.05664C7.65285 17.627 7.32422 17.2983 7.32422 16.8945C7.32422 16.4913 7.65171 16.1633 8.05473 16.1623ZM23.2965 5.9082L20.7853 14.6973H8.6441L6.69098 5.9082H23.2965Z" fill="#454545"/>
+                            <path d="M7.32422 21.2891C7.32422 22.5006 8.30994 23.4863 9.52148 23.4863C10.733 23.4863 11.7188 22.5006 11.7188 21.2891C11.7188 20.0775 10.733 19.0918 9.52148 19.0918C8.30994 19.0918 7.32422 20.0775 7.32422 21.2891ZM9.52148 20.5566C9.92527 20.5566 10.2539 20.8853 10.2539 21.2891C10.2539 21.6928 9.92527 22.0215 9.52148 22.0215C9.1177 22.0215 8.78906 21.6928 8.78906 21.2891C8.78906 20.8853 9.1177 20.5566 9.52148 20.5566Z" fill="#454545"/>
+                            <path d="M17.6758 21.2891C17.6758 22.5006 18.6615 23.4863 19.873 23.4863C21.0846 23.4863 22.0703 22.5006 22.0703 21.2891C22.0703 20.0775 21.0846 19.0918 19.873 19.0918C18.6615 19.0918 17.6758 20.0775 17.6758 21.2891ZM19.873 20.5566C20.2768 20.5566 20.6055 20.8853 20.6055 21.2891C20.6055 21.6928 20.2768 22.0215 19.873 22.0215C19.4693 22.0215 19.1406 21.6928 19.1406 21.2891C19.1406 20.8853 19.4693 20.5566 19.873 20.5566Z" fill="#454545"/>
+                        </svg>
+                        <div class="menu__cart__number">
+                            1
+                        </div>
+                    </a>
+                </div>
+                <a href="tel:+74957556983"  class="row footer__contact">
+                    <img src="/assets/img/phone2.svg" alt="">
+                    +74957556983
+                </a>
+                <a href="mailto:nonamemag@gmail.com" class="row footer__contact">
+                    <img src="/assets/img/mail2.svg" alt="">
+                    nonamemag@gmail.com
+                </a>
+                <div class="footer__social row">
+                    <a href=""><img src="/assets/img/s1.svg" alt=""></a>
+                    <a href=""><img src="/assets/img/s2.svg" alt=""></a>
+                    <a href=""><img src="/assets/img/s3.svg" alt=""></a>
                 </div>
             </div>
+            <a href="#body" class="footer__up">
+                <img src="/assets/img/arr3.svg" alt="">
+                <span>Вверх</span>
+            </a>
         </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="footer_nav_container">
-                    <div class="cr">©2022 All Rights Reserverd. Made by Vadym Gmyria</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-
-</div>
-
-<script src="front/js/jquery-3.2.1.min.js"></script>
-<script src="front/styles/bootstrap4/popper.js"></script>
-<script src="front/styles/bootstrap4/bootstrap.min.js"></script>
-<script src="front/plugins/Isotope/isotope.pkgd.min.js"></script>
-<script src="front/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="front/plugins/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
-<script src="front/plugins/easing/easing.js"></script>
-<script src="front/js/custom.js"></script>
-<script src="front/js/categories_custom.js"></script>
-<script src="front/js/single_custom.js"></script>
+    </footer><!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Слайдер -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Range -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.3/nouislider.min.js"></script>
+    <!-- Main -->
+    <script src="/assets/js/app.js"></script>
 </body>
-
 </html>
